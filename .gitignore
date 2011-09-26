@@ -1,0 +1,13 @@
+*~
+*.BACKUP*
+*.BASE*
+*.LOCAL*
+*.REMOTE*
+log/*.log
+*.orig
+*#
+db/*.sqlite3
+.idea/*
+.idea/
+.DS_Store
+.svn

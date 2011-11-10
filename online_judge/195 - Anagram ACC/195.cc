@@ -23,10 +23,10 @@ int main(){
     sort(conv.begin(), conv.end());
     do{
       for(int i=0;i<conv.size();++i){
-	char letter;
-	if(conv[i] & 1) letter = ((conv[i] - 1) / 2) + 'a';
-	else letter = (conv[i] / 2) + 'A';
-	printf("%c", letter);
+        char letter;
+        if(conv[i] & 1) letter = ((conv[i] - 1) / 2) + 'a';
+        else letter = (conv[i] / 2) + 'A';
+        printf("%c", letter);
       }
       puts("");
     }while(next_permutation(conv.begin(), conv.end()));

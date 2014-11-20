@@ -12,3 +12,5 @@ db/*.sqlite3
 .DS_Store
 .svn
 *a.out*
+*test.txt*
+*test.in*
